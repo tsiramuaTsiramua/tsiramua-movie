@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="This is Movie Website, Here you can watch the movie you want">
+  <meta name=”robots” content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" href="img/icon.jpg">
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Movie Website</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <div class="nav-logo">
+            <a href="index.html">MovieWebsite</a>
+          </div>
+          <div class="nav-links">
+            <ul class="nav-items">
+              <li class="nav-item active" id="active"><a href="#">POPULAR</a></li>
+              <li class="nav-item"><a href="#">TOP RATED</a></li>
+              <li class="nav-item"><a href="#">COMEDY</a></li>
+            </ul>
+          </div>
+          <div class="nav-right-search-wrapper">
+            <div class="nav-right-content">
+              <input class="nav-search-input" type="text" placeholder="SEARCH">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+          </div>
+          <div class="hamburger-content">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </header>
+      <div class="middle-section"></div>
+      <div class="sidebar">
+        <div class="greater-less-icons">
+          <i class="fa-solid fa-less-than less"></i>
+          <i class="fa-solid fa-greater-than greater"></i>
+        </div>
+        <div class="sidebar-user">
+          <img src="img/user-icon-registration.png" alt="">
+          <span class="user-name"></span>
+        </div>
+        <div class="sidebar-log-out">
+          <i class="fa-solid fa-right-from-bracket"></i>
+        </div>
+        <div class="sidebar-register">
+          <button class="sidebar-register-btn">Register</button>
+        </div>
+        <div class="sidebar-log-in">
+          <button class="sidebar-log-in-btn">Log In</button>
+        </div>
+        <div class="sidebar-icons">
+          <div class="sidebar-discover">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span class="sidebar-span discover">Discover</span>
+          </div>
+          <div class="sidebar-discover">
+            <i class="fa-solid fa-fire"></i>
+            <span class="sidebar-span">Subscription</span>
+          </div>
+          <div class="sidebar-discover">
+            <i class="fa-solid fa-download"></i>
+            <span class="sidebar-span">Downloaded</span>
+          </div>
+          <div class="sidebar-discover">
+            <div class="sidebar-favorite">
+              <div class="sidebar-favorite-left">
+                <i class="fa-solid fa-heart"></i>
+                <span class="sidebar-span">Favorites</span>
+              </div>
+              <div class="sidebar-favorite-right"></div>
+            </div>
+            
+          </div>
+          <div class="sidebar-discover">
+            <i class="fa-solid fa-bell"></i>
+            <span class="sidebar-span">Notifications</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main id="main2">
+        <div class="top-part">
+            
+        </div>
+    </main>
+    <div class="comments">
+        <div class="top-comment">
+            <h3>Comments</h4>
+        </div>
+        <div class="bottom-comment">
+            <input type="text" class="com" placeholder="Comment">
+            <button class="send">Write comment</button>
+        </div>
+    </div>
+    <div class="com-container">
+    </div>
+  </div>
+  </div>
+
+  <div class="register-form hidden">
+    <div class="remove-register-form">
+        <i class="fa-solid fa-xmark remover"></i>
+    </div>
+    <div class="register-form-icon">
+        <img class="user-icon-reg" src="img/user-icon-registration.png" alt="">
+    </div>
+    <div class="registration">
+        <h3>Registration</h3>
+    </div>
+    <div class="registration-inputs">
+        <input type="text" placeholder="Username" class="reg-username reg-inp">
+        <input type="text" placeholder="Email" class="reg-email reg-inp">
+        <input type="password" placeholder="Password" class="reg-password reg-inp">
+        <input type="password" placeholder="Repeat password" class="reg-repeat-password reg-inp">
+    </div>
+    <div class="registration-button">
+        <button class="reg-btn">Registration</button>
+    </div>
+</div>
+
+<div class="log-in-form hidden">
+    <div class="remove-log-in-form">
+      <i class="fa-solid fa-xmark remover"></i>
+    </div>
+    <div class="log-in-form-icon">
+      <img class="user-icon-reg" src="img/user-icon-registration.png" alt="">
+    </div>
+    <div class="log-in-text">
+      <span class="log-in-span">Sign In</span>
+    </div>
+    <div class="log-in-inputs">
+      <div class="username-inp">
+        <input type="text" class="log-in-input log-in-username log-in-inp" placeholder="Username">
+      </div>
+      <div class="password-inp">
+        <input type="password" class="log-in-input log-in-password log-in-inp" placeholder="Password">
+      </div>
+    </div>
+    <div class="forgot-password">
+      <a href="#">Forgot Password?</a>
+    </div>
+    <div class="log-in-button">
+      <button class="log-in-btn">Log In</button>
+    </div>
+</div>
+
+<div class="overlay hidden"></div>
+
+  
+  <script src="js/reviewpage.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
